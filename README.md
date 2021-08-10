@@ -9,6 +9,7 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [![Twitter](https://img.shields.io/badge/twitter-@ilhamrisky-037de9.svg?style=for-the-badge&logo=twitter&logoWidth=20)][twitter]
 [![Instagram](https://img.shields.io/badge/instagram-@ilhamriski-e903d7.svg?style=for-the-badge&logo=instagram&logoWidth=20)][instagram]
 [![Linkedin](https://img.shields.io/badge/linkedin-ilhamriski-1488f0.svg?style=for-the-badge&logo=linkedin&logoWidth=20)][linkedin]
+[![Medium](https://img.shields.io/badge/medium-@ilhamrisky21-383838.svg?style=for-the-badge&logo=medium&logoWidth=20)][medium]
 
 # Stats ✨
 
@@ -24,4 +25,4 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [instagram]: https://www.instagram.com/ilhamriski/
 [twitter]: https://twitter.com/ilhamrisky
 [vanika]: https://www.unika.ac.id/blog/2018/07/13/virtual-assistant-vanika/
-[sista]: https://sista.unika.ac.id/
+[medium]: https://medium.com/@ilhamrisky21
