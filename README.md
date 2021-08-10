@@ -13,10 +13,9 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 
 # Stats ✨
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=IlhamriSKY&show_icons=true&theme=tokyonight)
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=IlhamriSKY&hide_langs_below=1&theme=tokyonight&layout=compact)
-<img src="https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-
+![Ilhamriski's GitHub stats](https://github-stats-six.vercel.app/api?username=IlhamriSKY&count_private=true&show_icons=true&theme=tokyonight&line_height=20)
+<span style="display:inline-block; width: 10px;"></span>
+![Top Langs](https://github-stats-six.vercel.app/api/top-langs/?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true)
 
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
 [footer]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/footer.png
