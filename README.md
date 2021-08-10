@@ -6,6 +6,8 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 
 # Get In Touch 💫
 
+[![pypresence](https://img.shields.io/badge/twitter-ilhamriski-00bb88.svg?style=for-the-badge&logo=twitter&logoWidth=20)]([twitter])
+
 🏡 [Website][website] **|** 🐦 [Twitter][twitter] **|**  📷 [Instagram][instagram] **|**  👔 [Linkedin][linkedin]
 
 # Stats ✨
