@@ -17,6 +17,8 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 <span style="display:inline-block; width: 10px;"></span>
 ![Top Langs](https://github-stats-six.vercel.app/api/top-langs/?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true)
 
+![Starts](https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
+
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
 [footer]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/footer.png
 [website]: https://ilhamriski.my.to
