@@ -8,7 +8,7 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 
 [![Twitter](https://img.shields.io/badge/twitter-@ilhamrisky-037de9.svg?style=for-the-badge&logo=twitter&logoWidth=20)][twitter]
 [![Instagram](https://img.shields.io/badge/instagram-@ilhamriski-e903d7.svg?style=for-the-badge&logo=instagram&logoWidth=20)][instagram]
-[![Instagram](https://img.shields.io/badge/linkedin-ilhamriski-e903d7.svg?style=for-the-badge&logo=linkedin&logoWidth=20)][linkedin]
+[![Linkedin](https://img.shields.io/badge/linkedin-ilhamriski-1488f0.svg?style=for-the-badge&logo=linkedin&logoWidth=20)][linkedin]
 
 # Stats ✨
 
