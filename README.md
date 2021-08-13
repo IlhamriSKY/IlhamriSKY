@@ -4,7 +4,7 @@ Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, 
 
 I'm doing freelance work, and building smaller projects beside it, while I work on developing several of my projects one of them is [VANIKA][vanika] and [SISTA][sista]. You can see my other projects below.
 
-# Get In Touch 💫
+# Get In Touch <img align="left" alt="GIF" height="35px" width="35px" src="./like.gif" />
 
 [![Website](https://img.shields.io/badge/website-ilhamriski-037de9.svg?style=for-the-badge&logo=WindowsTerminal&logoWidth=20)][website]
 [![Twitter](https://img.shields.io/badge/twitter-@ilhamrisky-037de9.svg?style=for-the-badge&logo=twitter&logoWidth=20)][twitter]
