@@ -12,7 +12,7 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [![Linkedin](https://img.shields.io/badge/linkedin-ilhamriski-1488f0.svg?style=for-the-badge&logo=linkedin&logoWidth=20)][linkedin]
 [![Medium](https://img.shields.io/badge/medium-@ilhamrisky21-383838.svg?style=for-the-badge&logo=medium&logoWidth=20)][medium]
 
-# Stats ✨
+# Stats <img align="left" alt="GIF" height="35px" width="35px" src="./stars-twinkle.gif" />
 
 ![Ilhamriski's GitHub stats](https://github-stats-six.vercel.app/api?username=IlhamriSKY&count_private=true&show_icons=true&theme=tokyonight&line_height=20)
 <span style="display:inline-block; width: 10px;"></span>
