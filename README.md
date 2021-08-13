@@ -1,5 +1,5 @@
 # Hello 👋
-# <img align="left" alt="GIF" height="35px" width="35px" src="./wave-hello.gif" /> Hello
+# Hello <img align="left" alt="GIF" height="35px" width="35px" src="./wave-hello.gif" />
 Hi my name is Ilham, I like writing code while drinking a cup of tea or coffee ☕.
 Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JAVA. fluent in using LINE Messaging API, Codeigniter And Laravel. familiar with developing using git.
 
