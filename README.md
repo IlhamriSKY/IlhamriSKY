@@ -1,5 +1,5 @@
 # Hello 👋
-# Hello <img align="right" alt="GIF" height="300px" width="300px" src="./assets/skr-sig.gif" />
+# Hello <img align="right" alt="GIF" height="300px" width="300px" src="./wive-hello.gif" />
 Hi my name is Ilham, I like writing code while drinking a cup of tea or coffee ☕.
 Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JAVA. fluent in using LINE Messaging API, Codeigniter And Laravel. familiar with developing using git.
 
