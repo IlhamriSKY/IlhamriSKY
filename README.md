@@ -22,7 +22,7 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
 [footer]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/footer.png
-[website]: https://ilhamriski.my.to
+[website]: https://ilhamriski.works
 [linkedin]: https://www.linkedin.com/in/ilhamriski/
 [instagram]: https://www.instagram.com/ilhamriski/
 [twitter]: https://twitter.com/ilhamrisky
