@@ -15,7 +15,7 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 # Stats <img align="left" alt="GIF" height="35px" width="35px" src="./stars-twinkle.gif" />
 
 ![Ilhamriski's GitHub stats](https://github-stats-six.vercel.app/api?username=IlhamriSKY&count_private=true&show_icons=true&theme=tokyonight&line_height=20)
-<span style="display:inline-block; width: 5px;"></span>
+<span style="display:inline-block; width: 10px;"></span>
 ![Top Langs](https://github-stats-six.vercel.app/api/top-langs/?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true)
 
 ![Starts](https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
@@ -29,4 +29,3 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [vanika]: https://www.unika.ac.id/blog/2018/07/13/virtual-assistant-vanika/
 [sista]: https://github.com/Pinternship/Sista
 [medium]: https://medium.com/@ilhamrisky21
-
