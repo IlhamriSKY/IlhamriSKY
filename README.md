@@ -14,9 +14,22 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 
 # Stats <img align="left" alt="GIF" height="35px" width="35px" src="./stars-twinkle.gif" />
 
-![Ilhamriski's GitHub stats](https://github-stats-six.vercel.app/api?username=IlhamriSKY&count_private=true&show_icons=true&theme=tokyonight&line_height=20)
-<span style="display:inline-block; width: 10px;"></span>
-![Top Langs](https://github-stats-six.vercel.app/api/top-langs/?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true)
+<table>
+   <td width="50%" valign="top">
+    <h3 align="center"> GitHub Status<h3>
+    <p align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=IlhamriSKY&theme=algolia&column=7&no-frame=true" />
+    </p>
+   </td>
+   <td width="50%" valign="top">
+    <h3 align="center"> Most used languages</h3>
+     <p align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IlhamriSKY&theme=outrun&column=7&no-frame=true"/>
+     </p>
+  </td>
+</table>
+
+
 
 ![Starts](https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
 
