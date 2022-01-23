@@ -24,11 +24,11 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
    <td width="50%" valign="top">
     <h3 align="center"> Most used languages</h3>
      <p align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IlhamriSKY&theme=tokyonight&column=7&no-frame=true"/>
+      <img src="https://github-stats-six.vercel.app/api/top-langs/?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true"/>
      </p>
   </td>
 </table>
-
+      
 ![Starts](https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
 
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
