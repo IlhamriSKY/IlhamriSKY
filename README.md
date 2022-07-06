@@ -2,7 +2,7 @@
 Hi my name is Ilham, I like writing code while drinking a cup of tea.
 Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JS. fluent in using LINE Messaging API, Codeigniter And Laravel. familiar with developing using git.
 
-I'm doing freelance work, and building smaller projects beside it, while I work on developing several of my projects one of them is [VANIKA][vanika] and [SISTA][sista]. You can see my other projects below.
+I'm doing freelance work, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
 
 # Get In Touch <img align="left" alt="GIF" height="35px" width="35px" src="./love.gif" />
 
@@ -38,5 +38,6 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [instagram]: https://www.instagram.com/ilhamriski/
 [twitter]: https://twitter.com/ilhamrisky
 [vanika]: https://www.unika.ac.id/blog/2018/07/13/virtual-assistant-vanika/
+[hani]: https://www.hani.unika.ac.id/
 [sista]: https://github.com/Pinternship/Sista
 [medium]: https://medium.com/@ilhamrisky21
