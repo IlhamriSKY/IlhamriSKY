@@ -38,6 +38,6 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
 [instagram]: https://www.instagram.com/ilhamriski/
 [twitter]: https://twitter.com/ilhamrisky
 [vanika]: https://www.unika.ac.id/blog/2018/07/13/virtual-assistant-vanika/
-[hani]: https://www.hani.unika.ac.id/
+[hani]: https://hani.unika.ac.id/
 [sista]: https://github.com/Pinternship/Sista
 [medium]: https://medium.com/@ilhamrisky21
