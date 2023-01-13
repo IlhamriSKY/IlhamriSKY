@@ -24,7 +24,6 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
    <td width="50%" valign="top">
     <h3 align="center"> Most used languages</h3>
      <p align="center">
-        
       <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=IlhamriSKY&show_icons=true&layout=compact&theme=tokyonight&count_private=truecount_private=true"/>
      </p>
   </td>
