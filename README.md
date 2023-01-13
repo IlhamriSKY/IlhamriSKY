@@ -28,8 +28,8 @@ I'm doing freelance work, and building smaller projects beside it, while I work 
      </p>
   </td>
 </table>
-      
-![Starts](https://activity-graph.herokuapp.com/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
+
+![Starts](https://github-readme-activity-graph.cyclic.app/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
 
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
 [footer]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/footer.png
