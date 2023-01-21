@@ -2,7 +2,7 @@
 Hi my name is Ilham, I am backend developer.
 Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JS. fluent in using LINE Messaging API, Laravel And Codeigniter. familiar with developing using git.
 
-I'm currently working at Soegjapranata Catholic University as backend developer, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
+I'm currently working at Soegjapranata Catholic University as full-stack developer, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
 
 # Get In Touch <img align="left" alt="GIF" height="35px" width="35px" src="./love.gif" />
 
