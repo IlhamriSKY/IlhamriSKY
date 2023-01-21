@@ -1,8 +1,8 @@
 # Hello <img align="left" alt="GIF" height="35px" width="35px" src="./wave-hello.gif" />
-Hi my name is Ilham, I like writing code while drinking a cup of tea.
-Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JS. fluent in using LINE Messaging API, Codeigniter And Laravel. familiar with developing using git.
+Hi my name is Ilham, I am backend developer.
+Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JS. fluent in using LINE Messaging API, Laravel And Codeigniter. familiar with developing using git.
 
-I'm doing freelance work, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
+I'm currently working at Soegjapranata Catholic University as full-stack developer, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
 
 # Get In Touch <img align="left" alt="GIF" height="35px" width="35px" src="./love.gif" />
 
