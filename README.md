@@ -29,7 +29,7 @@ I'm currently working at Soegjapranata Catholic University as full-stack develop
   </td>
 </table>
 
-![Starts](https://github-readme-activity-graph.cyclic.app/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true)
+<!-- ![Starts](https://github-readme-activity-graph.cyclic.app/graph?username=IlhamriSKY&theme=react-dark&bg_color=20232a&hide_border=true) -->
 
 [banner]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/headergif.gif
 [footer]: https://raw.githubusercontent.com/IlhamriSKY/IlhamriSKY/master/footer.png
