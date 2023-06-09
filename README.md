@@ -1,6 +1,6 @@
 # Hello <img align="left" alt="GIF" height="35px" width="35px" src="./wave-hello.gif" />
 Hi my name is Ilham, I am backend developer.
-Experienced in developing Chatbot, Web and APIs. Good knowledge in Python, PHP, and JavaScript. fluent in using Laravel, Codeigniter and LINE Messaging API. Familiar with collaborative development using Git. Passionate about creating efficient and scalable solutions. Currently expanding my skill set by learning Go programming language.
+Experienced in developing web applications, chatbots, and APIs. Good knowledge in Python, PHP, and JavaScript. fluent in using Laravel, Codeigniter and LINE Messaging API. Familiar with collaborative development using Git. Passionate about creating efficient and scalable solutions. Currently expanding my skill set by learning Go programming language.
 
 I'm currently working at Soegjapranata Catholic University as full-stack developer, and building smaller projects beside it, while I work on developing several of my projects one of them is [Halo Alumni][hani] and [SISTA][sista]. You can see my other projects below.
 
