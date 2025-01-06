@@ -6,7 +6,7 @@ I am currently a freelancer actively seeking opportunities as a backend develope
 
 # Get In Touch <img align="left" alt="GIF" height="35px" width="35px" src="./love.gif" />
 
-[![Website](https://img.shields.io/badge/website-wip%20ilhamriski-037de9.svg?style=for-the-badge&logo=WindowsTerminal&logoWidth=20)][website]
+[![Website](https://img.shields.io/badge/website%20ilhamriski-037de9.svg?style=for-the-badge&logo=WindowsTerminal&logoWidth=20)][website]
 [![Twitter](https://img.shields.io/badge/twitter-@ilhamrisky-037de9.svg?style=for-the-badge&logo=twitter&logoWidth=20)][twitter]
 [![Instagram](https://img.shields.io/badge/instagram-@ilhamriski-e903d7.svg?style=for-the-badge&logo=instagram&logoWidth=20)][instagram]
 [![Linkedin](https://img.shields.io/badge/linkedin-ilhamriski-1488f0.svg?style=for-the-badge&logo=linkedin&logoWidth=20)][linkedin]
