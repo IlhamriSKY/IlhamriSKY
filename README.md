@@ -42,7 +42,5 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 <!-- BLOG-POST-LIST:END -->
 <!-- CONTENT-SECTION:END -->
 
-🔗 [View My Full Portfolio](https://ilhamriski.com/portfolio) | 📖 [Read My Blog](https://ilhamriski.com/blog)
-
 ---
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)
