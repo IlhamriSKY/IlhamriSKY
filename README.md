@@ -19,26 +19,15 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 </table>
 
 <!-- CONTENT-SECTION:START -->
-## 🎨 Latest Portfolio Projects
-
-<!-- PORTFOLIO-SECTION:START -->
 
 | Thumbnail | Project |
 |-----------|---------|
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | [HANI - HALO ALUMNI](https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | [Tracer Study Support Data Kemdikbud](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | [Simple DepthMap 3D Animation](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | [UI design for a workout/exercise app](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | [Bio Link, Short Link and QRCODE Generator](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | [Extension VSCode: S.ID Shortlink management](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501) |
-<!-- PORTFOLIO-SECTION:END -->
-
-## 📖 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Complex Datatable With Advanced Search, Order, Sort, And Dynamic Filtering Capabilities Using Vue](https://ilhamriski.com/complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue/?utm_source=rss&utm_medium=rss&utm_campaign=complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue)
-- [Database Restore .Frm Python 3 using mysqlfrm](https://ilhamriski.com/database-restore-frm-python-3-using-mysqlfrm/?utm_source=rss&utm_medium=rss&utm_campaign=database-restore-frm-python-3-using-mysqlfrm)
-<!-- BLOG-POST-LIST:END -->
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | <a href="https://ilhamriski.com/halo-alumni" target="_blank">HANI - HALO ALUMNI</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | <a href="https://ilhamriski.com/tracer-study" target="_blank">Tracer Study Support Data Kemdikbud</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | <a href="https://ilhamriski.com/simple-depthmap-3d-animation" target="_blank">Simple DepthMap 3D Animation</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | <a href="https://ilhamriski.com/ui-design-for-a-workout-exercise-app" target="_blank">UI design for a workout/exercise app</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | <a href="https://ilhamriski.com/bio-link-short-link-and-qrcode-generator" target="_blank">Bio Link, Short Link and QRCODE Generator</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | <a href="https://ilhamriski.com/extension-vscode-s-id-shortlink-management" target="_blank">Extension VSCode: S.ID Shortlink management</a> |
 <!-- CONTENT-SECTION:END -->
 
 ---
