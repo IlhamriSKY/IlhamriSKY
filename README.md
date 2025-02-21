@@ -18,17 +18,11 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
   </tr>
 </table>
 
-<!-- CONTENT-SECTION:START -->
+## 📖 Latest Blog Posts
 
-| Thumbnail | Project |
-|-----------|---------|
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | <a href="https://ilhamriski.com/halo-alumni" target="_blank">HANI - HALO ALUMNI</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | <a href="https://ilhamriski.com/tracer-study" target="_blank">Tracer Study Support Data Kemdikbud</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | <a href="https://ilhamriski.com/simple-depthmap-3d-animation" target="_blank">Simple DepthMap 3D Animation</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | <a href="https://ilhamriski.com/ui-design-for-a-workout-exercise-app" target="_blank">UI design for a workout/exercise app</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | <a href="https://ilhamriski.com/bio-link-short-link-and-qrcode-generator" target="_blank">Bio Link, Short Link and QRCODE Generator</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | <a href="https://ilhamriski.com/extension-vscode-s-id-shortlink-management" target="_blank">Extension VSCode: S.ID Shortlink management</a> |
-<!-- CONTENT-SECTION:END -->
+<!-- BLOG-POST-LIST:START -->
+*Blog posts will be updated here automatically...*
+<!-- BLOG-POST-LIST:END -->
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)
