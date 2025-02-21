@@ -28,7 +28,8 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 ## 📖 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-*Blog posts will be updated here automatically...*
+- [Complex Datatable With Advanced Search, Order, Sort, And Dynamic Filtering Capabilities Using Vue](https://ilhamriski.com/complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue/?utm_source=rss&utm_medium=rss&utm_campaign=complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue)
+- [Database Restore .Frm Python 3 using mysqlfrm](https://ilhamriski.com/database-restore-frm-python-3-using-mysqlfrm/?utm_source=rss&utm_medium=rss&utm_campaign=database-restore-frm-python-3-using-mysqlfrm)
 <!-- BLOG-POST-LIST:END -->
 <!-- CONTENT-SECTION:END -->
 
