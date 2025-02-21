@@ -14,7 +14,7 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
   </tr>
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilhamrisky&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/></td>
-    <td><img src="https://github-contributor-stats.vercel.app/api?username=ilhamrisky&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Contributor Stats"/></td>
+    <td><img src="https://github-contributor-stats.vercel.app/api?username=ilhamrisky&limit=5&theme=shadow_blue&combine_all_yearly_contributions=true" alt="Contributor Stats"/></td>
   </tr>
 </table>
 
