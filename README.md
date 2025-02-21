@@ -24,12 +24,12 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 
 | Thumbnail | Project |
 |-----------|---------|
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png) | [HANI - HALO ALUMNI](https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398) |
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png) | [Tracer Study Support Data Kemdikbud](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317) |
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png) | [Simple DepthMap 3D Animation](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348) |
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg) | [UI design for a workout/exercise app](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404) |
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png) | [Bio Link, Short Link and QRCODE Generator](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443) |
-| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png) | [Extension VSCode: S.ID Shortlink management](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | [HANI - HALO ALUMNI](https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | [Tracer Study Support Data Kemdikbud](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | [Simple DepthMap 3D Animation](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | [UI design for a workout/exercise app](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | [Bio Link, Short Link and QRCODE Generator](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443) |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | [Extension VSCode: S.ID Shortlink management](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501) |
 
 ## 📖 Latest Blog Posts
 
