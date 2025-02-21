@@ -27,9 +27,9 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 
 ## 📖 Latest Blog Posts
 
-<!-- BLOG-SECTION:START -->
+<!-- BLOG-POST-LIST:START -->
 *Blog posts will be updated here automatically...*
-<!-- BLOG-SECTION:END -->
+<!-- BLOG-POST-LIST:END -->
 <!-- CONTENT-SECTION:END -->
 
 🔗 [View My Full Portfolio](https://ilhamriski.com/portfolio) | 📖 [Read My Blog](https://ilhamriski.com/blog)
