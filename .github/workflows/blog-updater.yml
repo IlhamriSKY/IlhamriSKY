@@ -18,7 +18,9 @@ jobs:
           echo "| Thumbnail | Project |" >> content.md
           echo "|-----------|---------|" >> content.md
 
-          curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" | jq -r '.[] | "| ![Image](" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/150") + ") | [" + .post_title + "](" + .guid + ") |"' >> content.md
+          curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" > portfolio.json
+          
+          cat portfolio.json | jq -r '.[] | "| <img src=\"" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + "\" width=\"100\"> | [" + .post_title + "](" + .guid + ") |"' >> content.md
 
       - name: Fetch Blog Posts (Titles Only)
         run: |
@@ -26,8 +28,11 @@ jobs:
           echo "## 📖 Latest Blog Posts" >> content.md
           echo "" >> content.md
 
-          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<title><!\[CDATA\[).*?(?=\]\]></title>)' | tail -n +5 | head -5 > blog_titles.txt
-          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<link>).*?(?=</link>)' | tail -n +2 | head -5 > blog_links.txt
+          curl -s "https://ilhamriski.com/blog/feed/" > rss.xml
+          
+          # Extract latest 5 blog titles and links
+          grep -oP '(?<=<title><!\[CDATA\[).*?(?=\]\]></title>)' rss.xml | tail -n +2 | head -5 > blog_titles.txt
+          grep -oP '(?<=<link>).*?(?=</link>)' rss.xml | tail -n +2 | head -5 > blog_links.txt
 
           paste -d '|' blog_titles.txt blog_links.txt | while IFS='|' read -r title link; do
             echo "- [$title]($link)" >> content.md
