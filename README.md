@@ -20,7 +20,22 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 
 ## 📰 Portfolio & Blog Updates
 <!-- CONTENT-SECTION:START -->
-<!-- Portfolio and Blog items will be auto-updated here -->
+## 🎨 Latest Portfolio Projects
+
+| Thumbnail | Project |
+|-----------|---------|
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png) | [HANI - HALO ALUMNI](https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398) |
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png) | [Tracer Study Support Data Kemdikbud](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317) |
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png) | [Simple DepthMap 3D Animation](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348) |
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg) | [UI design for a workout/exercise app](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404) |
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png) | [Bio Link, Short Link and QRCODE Generator](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443) |
+| ![Image](https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png) | [Extension VSCode: S.ID Shortlink management](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501) |
+
+## 📖 Latest Blog Posts
+
+- [](https://ilhamriski.com)
+- [](https://ilhamriski.com/complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue)
+- [](https://ilhamriski.com/database-restore-frm-python-3-using-mysqlfrm/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=database-restore-frm-python-3-using-mysqlfrm)
 <!-- CONTENT-SECTION:END -->
 
 🔗 [See Full Portfolio](https://ilhamriski.com/portfolio/) | 📖 [See Full Blog](https://ilhamriski.com/blog/)
