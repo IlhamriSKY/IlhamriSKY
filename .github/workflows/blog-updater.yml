@@ -2,7 +2,7 @@ name: Update README with Portfolio & Blog
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
+    - cron: "0 */1 * * *"  # Runs every 1 hours
   workflow_dispatch:  # Allows manual execution
 
 jobs:
@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
       - name: Fetch Portfolio Items
         run: |
