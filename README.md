@@ -18,7 +18,6 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
   </tr>
 </table>
 
-## 📰 Portfolio & Blog Updates
 <!-- CONTENT-SECTION:START -->
 <!-- Portfolio and Blog items will be auto-updated here -->
 <!-- CONTENT-SECTION:END -->
