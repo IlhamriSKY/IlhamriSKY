@@ -22,9 +22,12 @@ jobs:
           
           cat portfolio.json | jq -r '
             .[] |
-            "| <img src=\"" + 
-            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + 
-            "\" width=\"100\"> | <a href=\"https://ilhamriski.com/" + .post_name + "\" target=\"_blank\">" + .post_title + "</a> |"
+            (
+              .post_content | 
+              capture("<img.*?src=\"(?<url>[^\"]+)\"") as $image | 
+              "| <img src=\"" + ($image.url // "https://via.placeholder.com/100") + "\" width=\"100\"> | " +
+              "<a href=\"" + .guid + "\" target=\"_blank\">" + .post_title + "</a> |"
+            )
           ' >> content.md
 
       - name: Fetch Blog Posts (Using blog-post-workflow)
