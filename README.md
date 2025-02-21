@@ -21,23 +21,18 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 <!-- CONTENT-SECTION:START -->
 ## 🎨 Latest Portfolio Projects
 
-| Thumbnail | Project |
-|-----------|---------|
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | [HANI - HALO ALUMNI](https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | [Tracer Study Support Data Kemdikbud](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | [Simple DepthMap 3D Animation](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | [UI design for a workout/exercise app](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | [Bio Link, Short Link and QRCODE Generator](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443) |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | [Extension VSCode: S.ID Shortlink management](https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501) |
+<!-- PORTFOLIO-SECTION:START -->
+*Portfolio projects will be updated here automatically...*
+<!-- PORTFOLIO-SECTION:END -->
 
 ## 📖 Latest Blog Posts
 
-- [](https://ilhamriski.com)
-- [](https://ilhamriski.com/complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=complex-datatable-with-advanced-search-order-sort-and-dynamic-filtering-capabilities-using-vue)
-- [](https://ilhamriski.com/database-restore-frm-python-3-using-mysqlfrm/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=database-restore-frm-python-3-using-mysqlfrm)
+<!-- BLOG-SECTION:START -->
+*Blog posts will be updated here automatically...*
+<!-- BLOG-SECTION:END -->
 <!-- CONTENT-SECTION:END -->
 
-🔗 [See Full Portfolio](https://ilhamriski.com/portfolio/) | 📖 [See Full Blog](https://ilhamriski.com/blog/)
+🔗 [View My Full Portfolio](https://ilhamriski.com/portfolio) | 📖 [Read My Blog](https://ilhamriski.com/blog)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)
