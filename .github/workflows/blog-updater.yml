@@ -27,14 +27,14 @@ jobs:
         with:
           feed_list: "https://ilhamriski.com/blog/feed/"
 
-      - name: Update README
+      - name: Merge Portfolio with README
         run: |
-          awk '/<!-- CONTENT-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- CONTENT-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
+          awk '/<!-- PORTFOLIO-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- PORTFOLIO-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated portfolio and blog section" || exit 0
+          git commit -m "Updated portfolio section" || exit 0
           git push
