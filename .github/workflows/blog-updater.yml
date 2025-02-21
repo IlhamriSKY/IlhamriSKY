@@ -2,7 +2,7 @@ name: Update README with Portfolio & Blog
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,16 +19,17 @@ jobs:
           echo "| Thumbnail | Project |" >> content.md
           echo "|-----------|---------|" >> content.md
 
+          # Ambil data portofolio dari API
           curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" > portfolio.json
-          
+
+          # Parse JSON dan ambil gambar pertama yang valid dari post_content
           cat portfolio.json | jq -r '
-            .[] |
-            (
-              .post_content | 
-              capture("<img.*?src=\"(?<url>[^\"]+)\"") as $image | 
-              "| <img src=\"" + ($image.url // "https://via.placeholder.com/100") + "\" width=\"100\"> | " +
-              "<a href=\"" + .guid + "\" target=\"_blank\">" + .post_title + "</a> |"
-            )' >> content.md || echo "| No projects found | |"
+            .[] | 
+            . as $item | 
+            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"")? // {url: "https://via.placeholder.com/100"}) as $image | 
+            "| <img src=\"" + $image.url + "\" width=\"100\"> | " +
+            "<a href=\"" + $item.guid + "\" target=\"_blank\">" + $item.post_title + "</a> |"
+          ' >> content.md || echo "| No projects found | |"
 
       - name: Fetch Blog Posts (Using blog-post-workflow)
         uses: gautamkrishnar/blog-post-workflow@master
