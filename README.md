@@ -19,7 +19,10 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 </table>
 
 <!-- CONTENT-SECTION:START -->
-<!-- Portfolio projects will be inserted here -->
+## 🎨 Latest Portfolio Projects
+
+| Thumbnail | Project |
+|-----------|---------|
 <!-- CONTENT-SECTION:END -->
 
 ## 📖 Latest Blog Posts
