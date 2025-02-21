@@ -23,16 +23,16 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 
 | Thumbnail | Project |
 |-----------|---------|
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | <a href="https://hamidevs.com/wp/bentofolio/?post_type=bo-portfolios&#038;p=398" target="_blank">HANI - HALO ALUMNI</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1317" target="_blank">Tracer Study Support Data Kemdikbud</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1335" target="_blank">Laravel Timezone by City Package</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1348" target="_blank">Simple DepthMap 3D Animation</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1366" target="_blank">Python 3 API Wrapper for PDDIKTI Kemdikbud Data Retrieval</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1380" target="_blank">PDDIKTI API Laravel Package</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1404" target="_blank">UI design for a workout/exercise app</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1443" target="_blank">Bio Link, Short Link and QRCODE Generator</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1484" target="_blank">Extension VSCode: Doa Harian Katolik</a> |
-| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | <a href="https://ilhamriski.com/?post_type=bo-portfolios&#038;p=1501" target="_blank">Extension VSCode: S.ID Shortlink management</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134816-1024x387.png" width="100"> | <a href="https://ilhamriski.com/+halo-alumni" target="_blank">HANI - HALO ALUMNI</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/05/Screenshot-2024-10-14-134500-1024x495.png" width="100"> | <a href="https://ilhamriski.com/+tracer-study" target="_blank">Tracer Study Support Data Kemdikbud</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/+laravel-timezone-by-city-package" target="_blank">Laravel Timezone by City Package</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/screen.png" width="100"> | <a href="https://ilhamriski.com/+simple-depthmap-3d-animation" target="_blank">Simple DepthMap 3D Animation</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/+python-3-api-wrapper-for-pddikti-kemdikbud-data-retrieval" target="_blank">Python 3 API Wrapper for PDDIKTI Kemdikbud Data Retrieval</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/+pddikti-api-laravel-package" target="_blank">PDDIKTI API Laravel Package</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1712977224188.jpg" width="100"> | <a href="https://ilhamriski.com/+ui-design-for-a-workout-exercise-app" target="_blank">UI design for a workout/exercise app</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/Admin-Dashboard-Soegijapranata-Catholic-University-ShortLink.png" width="100"> | <a href="https://ilhamriski.com/+bio-link-short-link-and-qrcode-generator" target="_blank">Bio Link, Short Link and QRCODE Generator</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg" width="100"> | <a href="https://ilhamriski.com/+extension-vscode-doa-harian-katolik" target="_blank">Extension VSCode: Doa Harian Katolik</a> |
+| <img src="https://ilhamriski.com/ilham_content/uploads/2024/12/Screenshot-2024-12-16-115115-1024x528.png" width="100"> | <a href="https://ilhamriski.com/+extension-vscode-s-id-shortlink-management" target="_blank">Extension VSCode: S.ID Shortlink management</a> |
 <!-- CONTENT-SECTION:END -->
 
 ## 📖 Latest Blog Posts
