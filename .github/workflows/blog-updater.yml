@@ -9,7 +9,8 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
       - name: Fetch Portfolio Items
         run: |
@@ -27,8 +28,7 @@ jobs:
               capture("<img.*?src=\"(?<url>[^\"]+)\"") as $image | 
               "| <img src=\"" + ($image.url // "https://via.placeholder.com/100") + "\" width=\"100\"> | " +
               "<a href=\"" + .guid + "\" target=\"_blank\">" + .post_title + "</a> |"
-            )
-          ' >> content.md
+            )' >> content.md || echo "| No projects found | |"
 
       - name: Fetch Blog Posts (Using blog-post-workflow)
         uses: gautamkrishnar/blog-post-workflow@master
@@ -36,7 +36,7 @@ jobs:
           feed_list: "https://ilhamriski.com/blog/feed/"
           commit_message: "Updated latest blog posts"
 
-      - name: Update README
+      - name: Update README with Portfolio
         run: |
           awk '/<!-- CONTENT-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- CONTENT-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
 
@@ -45,5 +45,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated portfolio and blog section" || exit 0
-          git push
+          git commit -m "Updated portfolio and blog section" || echo "No changes to commit"
+          git push || echo "No changes to push"
