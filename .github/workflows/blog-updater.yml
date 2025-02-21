@@ -1,23 +1,48 @@
-name: Update Blog Posts
+name: Update README with Blog & Portfolio
 
 on:
   schedule:
-    - cron: "0 */1 * * *" # Runs every 1 hours
-  workflow_dispatch: # Allows manual run
+    - cron: "0 */12 * * *"  # Runs every 12 hours
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Fetch Blog Posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://ilhamriski.com/blog/feed/"
-      - name: Commit and push if changed
+        run: |
+          echo "## 📖 Latest Blog Posts" > content.md
+          echo "" >> content.md
+          echo "| Thumbnail | Title |" >> content.md
+          echo "|-----------|-------|" >> content.md
+          
+          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<item><title><!\[CDATA\[).*?(?=\]\]></title>)' | head -5 > blog_titles.txt
+          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<link>).*?(?=</link>)' | tail -n +2 | head -5 > blog_links.txt
+          
+          paste -d'|' blog_titles.txt blog_links.txt | while IFS='|' read -r title link; do
+            echo "| ![Blog](https://via.placeholder.com/150) | [$title]($link) |" >> content.md
+          done
+
+      - name: Fetch Portfolio Items
+        run: |
+          echo "" >> content.md
+          echo "## 🎨 Latest Portfolio Projects" >> content.md
+          echo "" >> content.md
+          echo "| Thumbnail | Project |" >> content.md
+          echo "|-----------|---------|" >> content.md
+
+          curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" | jq -r '.[] | "| ![Image](" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/150") + ") | [" + .post_title + "](" + .guid + ") |"' >> content.md
+
+      - name: Update README
+        run: |
+          sed -i '/<!-- CONTENT-SECTION:START -->/,/<!-- CONTENT-SECTION:END -->/c\<!-- CONTENT-SECTION:START -->\n'$(cat content.md)'\n<!-- CONTENT-SECTION:END -->' README.md
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated blog posts" || exit 0
+          git commit -m "Updated blog and portfolio section" || exit 0
           git push
