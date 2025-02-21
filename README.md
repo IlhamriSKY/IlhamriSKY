@@ -18,5 +18,9 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
   </tr>
 </table>
 
+## Latest Blog Posts 📢
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
 ---
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)

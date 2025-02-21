@@ -1,0 +1,23 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Update setiap 6 jam
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://ilhamriski.com/blog/feed/"
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Updated blog posts" || exit 0
+          git push
