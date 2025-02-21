@@ -19,21 +19,26 @@ jobs:
 
           curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" > portfolio.json
           
-          cat portfolio.json | jq -r '.[] | "| <img src=\"" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + "\" width=\"100\"> | [" + .post_title + "](" + .guid + ") |"' >> content.md
+          cat portfolio.json | jq -r '
+            .[] |
+            "| <img src=\"" + 
+            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + 
+            "\" width=\"100\"> | <a href=\"https://ilhamriski.com/" + .post_name + "\" target=\"_blank\">" + .post_title + "</a> |"
+          ' >> content.md
 
       - name: Fetch Blog Posts (Using blog-post-workflow)
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://ilhamriski.com/blog/feed/"
 
-      - name: Merge Portfolio with README
+      - name: Update README
         run: |
-          awk '/<!-- PORTFOLIO-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- PORTFOLIO-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
+          awk '/<!-- CONTENT-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- CONTENT-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated portfolio section" || exit 0
+          git commit -m "Updated portfolio and blog section" || exit 0
           git push
