@@ -1,4 +1,4 @@
-name: Update README with Blog & Portfolio
+name: Update README with Portfolio & Blog
 
 on:
   schedule:
@@ -11,38 +11,47 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch Blog Posts
-        run: |
-          echo "## 📖 Latest Blog Posts" > content.md
-          echo "" >> content.md
-          echo "| Thumbnail | Title |" >> content.md
-          echo "|-----------|-------|" >> content.md
-          
-          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<item><title><!\[CDATA\[).*?(?=\]\]></title>)' | head -5 > blog_titles.txt
-          curl -s "https://ilhamriski.com/blog/feed/" | grep -oP '(?<=<link>).*?(?=</link>)' | tail -n +2 | head -5 > blog_links.txt
-          
-          paste -d'|' blog_titles.txt blog_links.txt | while IFS='|' read -r title link; do
-            echo "| ![Blog](https://via.placeholder.com/150) | [$title]($link) |" >> content.md
-          done
-
       - name: Fetch Portfolio Items
         run: |
-          echo "" >> content.md
-          echo "## 🎨 Latest Portfolio Projects" >> content.md
+          echo "## 🎨 Latest Portfolio Projects" > content.md
           echo "" >> content.md
           echo "| Thumbnail | Project |" >> content.md
           echo "|-----------|---------|" >> content.md
 
           curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" | jq -r '.[] | "| ![Image](" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/150") + ") | [" + .post_title + "](" + .guid + ") |"' >> content.md
 
+      - name: Fetch Blog Posts with Thumbnails
+        run: |
+          echo "" >> content.md
+          echo "## 📖 Latest Blog Posts" >> content.md
+          echo "" >> content.md
+          echo "| Thumbnail | Title |" >> content.md
+          echo "|-----------|-------|" >> content.md
+          
+          curl -s "https://ilhamriski.com/blog/feed/" > rss.xml
+          
+          # Extract latest 5 posts with thumbnails
+          for i in {1..5}; do
+            title=$(xmlstarlet sel -t -m "//item[$i]/title" -v . rss.xml)
+            link=$(xmlstarlet sel -t -m "//item[$i]/link" -v . rss.xml)
+            thumbnail=$(xmlstarlet sel -t -m "//item[$i]/content:encoded" -v . rss.xml | grep -oP 'src="\K[^"]+' | head -1)
+            
+            # Default placeholder if no image is found
+            if [ -z "$thumbnail" ]; then
+              thumbnail="https://via.placeholder.com/150"
+            fi
+            
+            echo "| ![Blog]($thumbnail) | [$title]($link) |" >> content.md
+          done
+
       - name: Update README
         run: |
-          sed -i '/<!-- CONTENT-SECTION:START -->/,/<!-- CONTENT-SECTION:END -->/c\<!-- CONTENT-SECTION:START -->\n'$(cat content.md)'\n<!-- CONTENT-SECTION:END -->' README.md
+          awk '/<!-- CONTENT-SECTION:START -->/{print; while(getline line < "content.md") print line; f=1; next} /<!-- CONTENT-SECTION:END -->/{f=0} !f' README.md > tmp.md && mv tmp.md README.md
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Updated blog and portfolio section" || exit 0
+          git commit -m "Updated portfolio and blog section" || exit 0
           git push
