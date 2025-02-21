@@ -2,8 +2,8 @@ name: Update README with Portfolio & Blog
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:  # Allows manual execution
+    - cron: "0 */6 * * *"  # Runs every 6 hours
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -22,21 +22,10 @@ jobs:
           
           cat portfolio.json | jq -r '.[] | "| <img src=\"" + (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + "\" width=\"100\"> | [" + .post_title + "](" + .guid + ") |"' >> content.md
 
-      - name: Fetch Blog Posts (Titles Only)
-        run: |
-          echo "" >> content.md
-          echo "## 📖 Latest Blog Posts" >> content.md
-          echo "" >> content.md
-
-          curl -s "https://ilhamriski.com/blog/feed/" > rss.xml
-          
-          # Extract latest 5 blog titles and links
-          grep -oP '(?<=<title><!\[CDATA\[).*?(?=\]\]></title>)' rss.xml | tail -n +2 | head -5 > blog_titles.txt
-          grep -oP '(?<=<link>).*?(?=</link>)' rss.xml | tail -n +2 | head -5 > blog_links.txt
-
-          paste -d '|' blog_titles.txt blog_links.txt | while IFS='|' read -r title link; do
-            echo "- [$title]($link)" >> content.md
-          done
+      - name: Fetch Blog Posts (Using blog-post-workflow)
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://ilhamriski.com/blog/feed/"
 
       - name: Update README
         run: |
