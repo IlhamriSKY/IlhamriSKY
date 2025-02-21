@@ -2,7 +2,7 @@ name: Update README with Portfolio & Blog
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */1 * * *"  # Runs every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -23,29 +23,13 @@ jobs:
             .[] |
             "| <img src=\"" + 
             (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"").url | select(. != null) // "https://via.placeholder.com/100") + 
-            "\" width=\"100\"> | <a href=\"https://ilhamriski.com/" + .post_name + "\" target=\"_blank\">" + .post_title + "</a> |"
+            "\" width=\"100\"> | [" + .post_title + "](https://ilhamriski.com/" + .post_name + ") |"
           ' >> content.md
 
-      - name: Fetch Blog Posts
-        run: |
-          echo "" >> content.md
-          echo "## 📖 Latest Blog Posts" >> content.md
-          echo "" >> content.md
-          echo "| Title |" >> content.md
-          echo "|-------|" >> content.md
-
-          curl -s "https://ilhamriski.com/blog/feed/" > blog.xml
-
-          # Extract latest 5 blog posts
-          for i in {1..5}; do
-            title=$(xmllint --xpath "string(//item[$i]/title)" blog.xml)
-            link=$(xmllint --xpath "string(//item[$i]/link)" blog.xml)
-            
-            # Ensure non-empty title before adding to content
-            if [[ -n "$title" && -n "$link" ]]; then
-              echo "| <a href=\"$link\" target=\"_blank\">$title</a> |" >> content.md
-            fi
-          done
+      - name: Fetch Blog Posts (Using blog-post-workflow)
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://ilhamriski.com/blog/feed/"
 
       - name: Update README
         run: |
