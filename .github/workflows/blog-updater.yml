@@ -2,7 +2,7 @@ name: Update README with Portfolio & Blog
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Runs every 6 hours
+    - cron: "*/30 * * * *"  # Runs every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,6 @@ jobs:
 
       - name: Fetch Portfolio Items
         run: |
-          echo "## 🎨 Latest Portfolio Projects" > content.md
           echo "" >> content.md
           echo "| Thumbnail | Project |" >> content.md
           echo "|-----------|---------|" >> content.md
