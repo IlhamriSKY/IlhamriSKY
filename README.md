@@ -18,12 +18,12 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
   </tr>
 </table>
 
-## 📰 Blog & Portfolio Updates
+## 📰 Portfolio & Blog Updates
 <!-- CONTENT-SECTION:START -->
-<!-- Blog and Portfolio items will be auto-updated here -->
+<!-- Portfolio and Blog items will be auto-updated here -->
 <!-- CONTENT-SECTION:END -->
 
-🔗 [See Full Blog](https://ilhamriski.com/blog/) | 🎨 [See Full Portfolio](https://ilhamriski.com/portfolio/)
+🔗 [See Full Portfolio](https://ilhamriski.com/portfolio/) | 📖 [See Full Blog](https://ilhamriski.com/blog/)
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)
