@@ -37,9 +37,13 @@ jobs:
           
           # Extract latest 5 blog post titles and links
           for i in {1..5}; do
-            title=$(xmlstarlet sel -t -m "//item[$i]/title" -v . rss.xml)
-            link=$(xmlstarlet sel -t -m "//item[$i]/link" -v . rss.xml)
-            echo "| [$title]($link) |" >> content.md
+            title=$(xmlstarlet sel -t -m "//channel/item[$i]/title" -v . -n rss.xml)
+            link=$(xmlstarlet sel -t -m "//channel/item[$i]/link" -v . -n rss.xml)
+            
+            # Ensure title and link are not empty
+            if [[ -n "$title" && -n "$link" ]]; then
+              echo "| [$title]($link) |" >> content.md
+            fi
           done
 
       - name: Update README
