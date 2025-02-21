@@ -22,11 +22,11 @@ jobs:
           # Ambil data portofolio dari API
           curl -s "https://ilhamriski.com/wp-json/bo-portfolios/v1/get" > portfolio.json
 
-          # Parse JSON dan ambil gambar pertama yang valid dari post_content
+          # Parse JSON dan ambil gambar pertama yang valid dari post_content, jika tidak ada gunakan default
           cat portfolio.json | jq -r '
             .[] | 
             . as $item | 
-            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"")? // {url: "https://via.placeholder.com/100"}) as $image | 
+            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"")? // {url: "https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg"}) as $image | 
             "| <img src=\"" + $image.url + "\" width=\"100\"> | " +
             "<a href=\"" + $item.guid + "\" target=\"_blank\">" + $item.post_title + "</a> |"
           ' >> content.md || echo "| No projects found | |"
