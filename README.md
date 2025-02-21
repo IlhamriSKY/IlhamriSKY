@@ -22,7 +22,6 @@ Hi, my name is Ilham, and I am a backend developer with experience in developing
 ## 🎨 Latest Portfolio Projects
 
 <!-- PORTFOLIO-SECTION:START -->
-## 🎨 Latest Portfolio Projects
 
 | Thumbnail | Project |
 |-----------|---------|
