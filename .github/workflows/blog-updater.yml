@@ -26,7 +26,7 @@ jobs:
           cat portfolio.json | jq -r '
             .[] | 
             . as $item | 
-            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"")? // {url: "https://ilhamriski.com/ilham_content/uploads/2024/10/1725586962250.jpg"}) as $image | 
+            (.post_content | capture("<img.*?src=\"(?<url>[^\"]+)\"")? // {url: "https://ilhamriski.com/storage/2024/10/1725586962250.jpg"}) as $image | 
             "| <img src=\"" + $image.url + "\" width=\"100\"> | " +
             "<a href=\"https://ilhamriski.com/" + $item.post_name + "\" target=\"_blank\">" + $item.post_title + "</a> |"
           ' >> content.md || echo "| No projects found | |"
