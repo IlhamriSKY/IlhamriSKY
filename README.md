@@ -78,16 +78,13 @@ while continuously developing other personal projects.
 
 ## Stats <img alt="GIF" height="30px" width="30px" src="./stars-twinkle.gif" />
 
-<table>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api?username=ilhamrisky&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats"/></td>
-    <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=ilhamrisky&theme=shadow_blue&hide_border=false" alt="GitHub Streak"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilhamrisky&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages"/></td>
-    <td><img src="https://github-contributor-stats.vercel.app/api?username=ilhamrisky&limit=5&theme=shadow_blue&combine_all_yearly_contributions=true" alt="Contributor Stats"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./images/userstats.svg" alt="GitHub Statistics"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ilhamrisky&theme=shadow_blue&hide_border=false" alt="GitHub Streak"/>
+</p>
 
 ---
 
