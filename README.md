@@ -59,7 +59,7 @@ while continuously developing other personal projects.
 
 ---
 
-## Stats <img alt="GIF" height="30px" width="30px" src="./stars-twinkle.gif" />
+## Stats
 
 <div align="center">
 
@@ -77,7 +77,5 @@ while continuously developing other personal projects.
 <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=ilhamrisky&theme=shadow_blue&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
 
 </div>
-
----
 
 [![](https://visitcount.itsvg.in/api?id=ilhamrisky&icon=0&color=0)](https://visitcount.itsvg.in)
